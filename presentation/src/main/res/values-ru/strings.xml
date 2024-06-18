@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="text_app_short_name">PECS</string>
+    <string name="text_app_long_name">Общение через изображения</string>
+    <string name="text_toolbar_name_format">%1$s | %2$s</string>
+
+    <!-- Intro -->
+    <string name="text_start">Начать</string>
+    <string name="text_guide">Руководство</string>
+    <string name="text_settings">Настройки</string>
+
+    <!-- Phase -->
+    <string name="text_phase_one">Фаза 1</string>
+    <string name="text_phase_two">Фаза 2</string>
+    <string name="text_phase_three">Фаза 3</string>
+    <string name="text_phase_four">Фаза 4</string>
+    <string name="text_phase_five">Фаза 5</string>
+    <string name="text_phase_six">Фаза 6</string>
+    <string name="text_phase">ФАЗА</string>
+
+    <!-- Categories -->
+    <string name="text_categories">Категории</string>
+
+    <!-- Pictograms -->
+    <string name="text_pictograms">Карточки</string>
+
+    <!-- Tape -->
+    <string name="text_tape">Лента</string>
+
+    <!-- Categories content description -->
+    <string name="text_content_description_icon_back">Назад</string>
+    <string name="text_content_description_icon_front">Вперёд</string>
+
+    <!-- Navigate To Settings -->
+    <string name="text_title_permission_permanently_denied">Необходимые разрешения</string>
+    <string name="text_message_permission_permanently_denied"> PECS нужен доступ к изображениям. Вы можете предоставить разрешение PECS в настройках вашего телефона.</string>
+    <string name="text_navigate_to_settings">Настройки</string>
+    <string name="text_cancel">Отмена</string>
+
+    <!-- Generic Error Messages -->
+    <string name="text_generic_error">Произошла ошибка, попробуйте снова через несколько минут :)</string>
+
+    <!-- Configuration -->
+    <string name="text_configuration_option_message">Выберите опцию</string>
+    <string name="text_configuration_category">Категория</string>
+    <string name="text_configuration_pictogram">Карточка</string>
+
+    <string name="text_hint_name">Имя</string>
+    <string name="text_camera">Камера</string>
+    <string name="text_gallery">Галерея</string>
+
+    <string name="text_add_pictogram">Добавить карточку</string>
+    <string name="text_upload_pictogram">Загрузить карточку</string>
+    <string name="text_pictogram_added_success">Карточка успешно добавлена</string>
+    <string name="text_select_category">Выберите категорию</string>
+
+    <string name="text_add_category">Добавить категорию</string>
+    <string name="text_upload_category">Загрузить категорию</string>
+    <string name="text_category_add_success">Категория успешно добавлена</string>
+
+    <string name="text_edit_pictogram">Редактировать карточку</string>
+    <string name="text_edit_pictogram_success">Карточка успешно обновлена</string>
+    <string name="text_select_pictogram">Выберите карточку</string>
+    <string name="text_update_pictogram">Обновить карточку</string>
+
+    <string name="text_edit_category">Редактировать категорию</string>
+    <string name="text_update_category">Обновить категорию</string>
+    <string name="text_edit_category_success">Категория успешно обновлена</string>
+
+    <string name="text_select_format">Выбрать %1$s</string>
+    <string name="text_add_format">Добавить %1$s</string>
+    <string name="text_edit_format">Редактировать %1$s</string>
+    <string name="text_delete_format">Удалить %1$s</string>
+
+    <string name="text_pictogram">Карточка</string>
+    <string name="text_category">Категория</string>
+    <string name="text_delete">Удалить</string>
+    <string name="text_select">Выбрать</string>
+    <string name="text_edit">Редактировать</string>
+    <string name="text_add">Добавить</string>
+
+    <string name="text_select_category_for_pecs">Выберите категории для PECS</string>
+    <string name="text_select_category_for_pecs_description">Выбранные категории будут отображаться при использовании PECS</string>
+
+    <string name="text_select_pictogram_for_pecs">Выберите карточку для PECS</string>
+    <string name="text_select_pictogram_for_pecs_description">Выбранные карточки будут отображаться при использовании PECS</string>
+
+    <string name="text_select_pictograms_size_format">(%1$s)</string>
+    <string name="text_select_category_size_format">(%1$s)</string>
+
+    <string name="text_update">Обновить</string>
+
+    <string name="text_select_pictograms_success">Карточки были обновлены!</string>
+    <string name="text_select_categories_success">Категории были обновлены!</string>
+
+    <string name="text_delete_pictograms_success">Карточки были удалены!</string>
+    <string name="text_delete_pictograms_description">Выбранные карточки будут удалены!</string>
+    <string name="text_delete_categories_success">Категории были удалены!</string>
+    <string name="text_delete_categories_description">Выбранные категории будут удалены!</string>
+
+    <string name="text_configuration_error_empty_name">Вы должны ввести имя</string>
+    <string name="text_configuration_error_empty_image">Вы должны выбрать изображение</string>
+    <string name="text_configuration_error_empty_category">Вы должны выбрать категорию</string>
+
+    <!-- Survey -->
+    <string name="content_description_img_author">Тест</string>
+    <string name="text_author_presentation">ТестТестТестТест
+    ТестТестТестТест</string>
+    <string name="text_title_start_survey">ТестТестТестТест</string>
+    <string name="text_message_start_survey">ТестТестТестТест</string>
+    <string name="text_title_end_survey">ТестТестТестТест</string>
+    <string name="text_message_end_survey">ТестТестТестТест</string>
+    <string name="text_btn_start_survey">ТестТестТестТест</string>
+    <string name="text_btn_end_survey">ТестТестТестТест</string>
+
+    <!-- Alert -->
+    <string name="text_accept">Принять</string>
+    <string name="text_survey_title">Поддержите сообщество CMI</string>
+    <string name="text_second_survey_description">Спасибо за вашу поддержку CMI! С вашей помощью мы будем продолжать создавать продукты. Поэтому мы просим вас заполнить тот же опрос через некоторое время и дать нам возможность сравнить полученные результаты :)</string>
+    <string name="text_first_survey_description">Наша основная мотивация - исследование и поддержка сообщества детей с расстройствами аутистического спектра. Помогите нам продолжить создание потрясающих продуктов, пройдя следующий опрос :)</string>
+    <string name="text_survey">Перейти к опросу</string>
+    <string name="text_remember_survey_later">Позже</string>
+
+    <!-- Messages -->
+    <string name="text_message_empty_categories">Нет доступных категорий для удаления. Можно удалять только внешние категории.</string>
+    <string name="text_message_empty_categories_for_pecs">Нет доступных категорий для выбора.</string>
+    <string name="text_message_empty_pictograms">Нет доступных карточек в этой категории для удаления. Можно удалять только внешние карточки в этой категории.</string>
+    <string name="text_message_empty_pictograms_for_pecs">Нет доступных карточек в этой категории для выбора.</string>
+
+</resources>

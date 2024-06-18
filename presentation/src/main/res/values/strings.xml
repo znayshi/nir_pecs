@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="text_app_short_name">PECS</string>
+    <string name="text_app_long_name">Communicating Through Images</string>
+    <string name="text_toolbar_name_format">%1$s | %2$s</string>
+
+    <!-- Intro -->
+    <string name="text_start">Start</string>
+    <string name="text_guide">Guide</string>
+    <string name="text_settings">Settings</string>
+
+    <!-- Phase -->
+    <string name="text_phase_one">Phase 1</string>
+    <string name="text_phase_two">Phase 2</string>
+    <string name="text_phase_three">Phase 3</string>
+    <string name="text_phase_four">Phase 4</string>
+    <string name="text_phase_five">Phase 5</string>
+    <string name="text_phase_six">Phase 6</string>
+    <string name="text_phase">PHASE</string>
+
+    <!-- Categories -->
+    <string name="text_categories">Categories</string>
+
+    <!-- Pictograms -->
+    <string name="text_pictograms">Pictograms</string>
+
+    <!-- Tape -->
+    <string name="text_tape">Sentence Strip</string>
+
+    <!-- Categories content description -->
+    <string name="text_content_description_icon_back">Back</string>
+    <string name="text_content_description_icon_front">Forward</string>
+
+    <!-- Navigate To Settings -->
+    <string name="text_title_permission_permanently_denied">Necessary Permissions</string>
+    <string name="text_message_permission_permanently_denied">CMI needs permissions to add images. You can authorize permissions for CMI in the phone settings</string>
+    <string name="text_navigate_to_settings">Settings</string>
+    <string name="text_cancel">Cancel</string>
+
+    <!-- Generic Error Messages -->
+    <string name="text_generic_error">An error has occurred, please try again in a few minutes :)</string>
+
+    <!-- Configuration -->
+    <string name="text_configuration_option_message">Select an option</string>
+    <string name="text_configuration_category">Category</string>
+    <string name="text_configuration_pictogram">Pictogram</string>
+
+    <string name="text_hint_name">Name</string>
+    <string name="text_camera">Camera</string>
+    <string name="text_gallery">Gallery</string>
+
+    <string name="text_add_pictogram">Add Pictogram</string>
+    <string name="text_upload_pictogram">Upload Pictogram</string>
+    <string name="text_pictogram_added_success">Pictogram added successfully</string>
+    <string name="text_select_category">Select Category</string>
+
+    <string name="text_add_category">Add Category</string>
+    <string name="text_upload_category">Upload Category</string>
+    <string name="text_category_add_success">Category added successfully</string>
+
+    <string name="text_edit_pictogram">Edit Pictogram</string>
+    <string name="text_edit_pictogram_success">Pictogram updated successfully</string>
+    <string name="text_select_pictogram">Select Pictogram</string>
+    <string name="text_update_pictogram">Update Pictogram</string>
+
+    <string name="text_edit_category">Edit Category</string>
+    <string name="text_update_category">Update Category</string>
+    <string name="text_edit_category_success">Category updated successfully</string>
+
+    <string name="text_select_format">Select %1$s</string>
+    <string name="text_add_format">Add %1$s</string>
+    <string name="text_edit_format">Edit %1$s</string>
+    <string name="text_delete_format">Delete %1$s</string>
+
+    <string name="text_pictogram">Pictogram</string>
+    <string name="text_category">Category</string>
+    <string name="text_delete">Delete</string>
+    <string name="text_select">Select</string>
+    <string name="text_edit">Edit</string>
+    <string name="text_add">Add</string>
+
+    <string name="text_select_category_for_pecs">Select categories for PECS</string>
+    <string name="text_select_category_for_pecs_description">Selected categories will be displayed when using PECS</string>
+
+    <string name="text_select_pictogram_for_pecs">Select pictograms for PECS</string>
+    <string name="text_select_pictogram_for_pecs_description">Selected pictograms will be displayed when using PECS</string>
+
+    <string name="text_select_pictograms_size_format">(%1$s)</string>
+    <string name="text_select_category_size_format">(%1$s)</string>
+
+    <string name="text_update">Update</string>
+
+    <string name="text_select_pictograms_success">Pictograms were updated!</string>
+    <string name="text_select_categories_success">Categories were updated!</string>
+
+    <string name="text_delete_pictograms_success">Pictograms were deleted!</string>
+    <string name="text_delete_pictograms_description">Selected pictograms will be deleted!</string>
+    <string name="text_delete_categories_success">Categories were deleted!</string>
+    <string name="text_delete_categories_description">Selected categories will be deleted!</string>
+
+    <string name="text_configuration_error_empty_name">You must enter a name</string>
+    <string name="text_configuration_error_empty_image">You must select an image</string>
+    <string name="text_configuration_error_empty_category">You must select a category</string>
+
+    <!-- Survey -->
+    <string name="content_description_img_author">Test</string>
+    <string name="text_author_presentation">Test</string>
+    <string name="text_title_start_survey">Pre Test</string>
+    <string name="text_message_start_survey">Test</string>
+    <string name="text_title_end_survey">Test</string>
+    <string name="text_message_end_survey">Test</string>
+    <string name="text_btn_start_survey">Test</string>
+    <string name="text_btn_end_survey">Test</string>
+
+    <!-- Alert -->
+    <string name="text_accept">Accept</string>
+    <string name="text_survey_title">Support the CMI Community</string>
+    <string name="text_second_survey_description">Thank you for your support of CMI! With your help, we will continue to create products. Therefore, we ask you to complete the same survey after some time and allow us to compare the results obtained :)</string>
+    <string name="text_first_survey_description">Our main motivation is research and support for the TEA community. Help us continue to create amazing products by completing the following survey :)</string>
+    <string name="text_survey">Go to survey</string>
+    <string name="text_remember_survey_later">Later</string>
+
+    <!-- Messages -->
+    <string name="text_message_empty_categories">You have no categories available to delete. Only external categories can be deleted.</string>
+    <string name="text_message_empty_categories_for_pecs">You have no categories available to select.</string>
+    <string name="text_message_empty_pictograms">You have no pictograms available in this category to delete. Only external pictograms in this category can be deleted.</string>
+    <string name="text_message_empty_pictograms_for_pecs">You have no pictograms available in this category to select.</string>
+
+</resources>

@@ -1,0 +1,65 @@
+plugins {
+    id 'com.android.library'
+    id 'kotlin-android'
+    id 'kotlin-kapt'
+}
+
+android {
+
+    namespace 'com.cmi.data'
+
+    compileSdk 34
+
+    defaultConfig {
+        minSdkVersion 26
+        targetSdkVersion 34
+
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+        consumerProguardFiles "consumer-rules.pro"
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+    }
+
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_17
+        targetCompatibility JavaVersion.VERSION_17
+    }
+
+    kotlinOptions {
+        jvmTarget = '17'
+    }
+
+    testOptions {
+        unitTests {
+            includeAndroidResources = true
+        }
+    }
+}
+
+dependencies {
+
+    implementation libs.kotlinx.coroutines.core
+    implementation libs.kotlinx.coroutines.android
+    implementation libs.jakewharton.timber
+    implementation libs.square.retrofit
+    implementation libs.square.converter.gson
+    implementation libs.square.okhttp.interceptor
+    implementation libs.androidx.preference.ktx
+    implementation libs.androidx.room.runtime
+    implementation libs.androidx.room.ktx
+
+    kapt libs.androidx.room.compiler
+
+    api project(":domain")
+
+    testImplementation libs.androidx.test.junit
+    testImplementation libs.androidx.test.junit.ktx
+    testImplementation libs.androidx.test.core
+    testImplementation libs.androidx.test.core.ktx
+    testImplementation libs.robolectric
+}

@@ -1,0 +1,101 @@
+plugins {
+    id 'com.android.library'
+    id 'kotlin-android'
+    id 'kotlin-parcelize'
+    id 'kotlin-kapt'
+    id 'androidx.navigation.safeargs'
+}
+
+android {
+
+    namespace 'com.cmi.presentation'
+
+    compileSdk 34
+
+    defaultConfig {
+        minSdkVersion 26
+        targetSdkVersion 34
+
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+        consumerProguardFiles "consumer-rules.pro"
+
+        vectorDrawables.useSupportLibrary = true
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+    }
+
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_17
+        targetCompatibility JavaVersion.VERSION_17
+    }
+
+    buildFeatures {
+        viewBinding true
+        compose true
+    }
+
+    composeOptions {
+        kotlinCompilerExtensionVersion = "1.5.12"
+    }
+
+    kotlinOptions {
+        jvmTarget = '17'
+    }
+
+    testOptions {
+        unitTests {
+            includeAndroidResources = true
+        }
+    }
+}
+
+dependencies {
+
+    implementation(platform(libs.androidx.compose.bom))
+    androidTestImplementation(platform(libs.androidx.compose.bom))
+
+    implementation libs.kotlinx.coroutines.core
+    implementation libs.kotlinx.coroutines.android
+    implementation libs.androidx.core.ktx
+    implementation libs.androidx.appcompat
+    implementation libs.androidx.fragment
+    implementation libs.androidx.fragment.ktx
+    implementation libs.androidx.constraintlayout
+    implementation libs.google.material
+    implementation libs.androidx.navigation.fragment
+    implementation libs.androidx.navigation.ui
+    implementation libs.jakewharton.timber
+    implementation(platform(libs.koin.bom))
+    implementation libs.koin.android
+    implementation libs.bumptech.glide
+    implementation libs.hbisoft.pickit
+    implementation libs.karumi.dexter
+    implementation libs.hdodenhof.circleimageview
+    implementation libs.facebook.shimmer
+    implementation libs.androidx.compose.runtime
+    implementation libs.androidx.compose.activity
+    implementation libs.androidx.compose.viewmodel
+    implementation libs.androidx.compose.runtime.livedata
+    implementation libs.androidx.compose.foundation
+    implementation libs.androidx.compose.ui
+    implementation libs.androidx.compose.material
+
+    kapt libs.bumptech.glide.compiler
+
+    debugImplementation libs.androidx.compose.ui.tooling
+    implementation libs.androidx.compose.ui.tooling.preview
+
+    implementation project(":data")
+
+    testImplementation libs.androidx.test.junit
+    testImplementation libs.androidx.test.junit.ktx
+    testImplementation libs.androidx.test.core
+    testImplementation libs.androidx.test.core.ktx
+    testImplementation libs.robolectric
+
+}
